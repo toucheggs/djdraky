@@ -2,4 +2,4 @@
 
 
 
-python run.py
+python app.py

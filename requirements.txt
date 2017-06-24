@@ -1,0 +1,5 @@
+discord.py[voice] ~= 0.12.0
+youtube_dl
+pip 
+webapp2==3.0.0b1
+cffi==1.6.0; sys_platform == 'win32'

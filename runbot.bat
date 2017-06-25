@@ -21,14 +21,14 @@ ENDLOCAL
 
 
 IF EXIST %SYSTEMROOT%\py.exe (
-    CMD /k py.exe -3.5 app.py
+    CMD /k py.exe -3.5 run.py
     EXIT
 )
 
 python --version > NUL 2>&1
 IF %ERRORLEVEL% NEQ 0 GOTO nopython
 
-CMD /k python app.py
+CMD /k python run.py
 GOTO end
 
 :nopython
